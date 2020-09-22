@@ -107,7 +107,7 @@ static int dict_gx_load_defs(char * conffile)
 	  {
 			struct dict_object * vendor;
 			CHECK_dict_search(DICT_VENDOR, VENDOR_BY_NAME, "3GPP", &vendor)
-			struct dict_application_data data = { 16777224, "Gx" };
+			struct dict_application_data data = { 16777238, "Gx" };
 			CHECK_dict_new( DICT_APPLICATION, &data, vendor, &app_id16777224)
 	  }
 	  /* Result codes */
